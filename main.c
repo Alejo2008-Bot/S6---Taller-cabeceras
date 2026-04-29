@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "suma.h"
 #include "resta.h"
+#include "multiplicacion.h"
 int main()
 {
     int a,b;
@@ -10,6 +11,7 @@ int main()
     scanf("%d", &b);
     printf("la suma es: %d\n", suma(a,b));
     printf("la resta es: %d\n", resta(a,b));
+    printf("la multiplicacion es: %d\n", multiplicacion(a,b));
 
     return 0;
 }
